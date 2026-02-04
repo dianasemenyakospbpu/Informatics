@@ -1,5 +1,5 @@
 # :memo: Лабораторная работа №1: Знакомство с Git и Python
-В этом репозиторие учусь работать с Git и Python :desktop_computer:
+В этом репозитории учусь работать с Git и Python :desktop_computer:
 ## :round_pushpin: В ходе работы сделано:
 * создан аккаунт и репозиторий на **GitHub**
 * установлен и настроен **Visual Studio Code** под **Python**
