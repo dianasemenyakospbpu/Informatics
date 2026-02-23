@@ -1,0 +1,17 @@
+print('=== Анализ последовательности ДНК ===')
+
+user_nucl = input("\nВведите последовательность ДНК: ")
+USER_nucl = user_nucl.upper()
+count = int(len(USER_nucl))
+count_A = int(USER_nucl.count("A"))
+count_T = int(USER_nucl.count("T"))
+count_G = int(USER_nucl.count("G"))
+count_C = int(USER_nucl.count("C"))
+
+print(f"\nПоследовательность в верхнем регистре: {USER_nucl}")
+print("\nПодсчёт нуклеотидов:")
+print(f"A: {count_A}\tпроцентное содержание: {count_A / count * 100} %")
+print(f"T: {count_T}\tпроцентное содержание: {count_T / count * 100} %")
+print(f"G: {count_G}\tпроцентное содержание: {count_G / count * 100} %")
+print(f"C: {count_C}\tпроцентное содержание: {count_C / count * 100} %")
+print(f"\nОбщая длина: {count} нуклеотидов")
